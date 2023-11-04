@@ -83,5 +83,6 @@ def more() -> None:
         # def index():
         #     ui.textarea('This note is kept between visits') \
         #         .classes('w-full').bind_value(app.storage.user, 'note')
+        # ui.run(storage_secret='private key to secure the browser session cookie')
         # END OF DEMO
         ui.textarea('This note is kept between visits').classes('w-full').bind_value(app.storage.user, 'note')
